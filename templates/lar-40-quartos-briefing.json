@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "lar-40-quartos-briefing",
+  "name": "Lar 40 quartos (briefing inicial, não conforme)",
+  "regime": "ERPI",
+  "floors": [
+    {
+      "level": 0,
+      "name": "Rés-do-chão",
+      "spaces": [
+        { "kind": "refeitorio", "areaM2": 130 },
+        { "kind": "banho_geriatrico", "areaM2": 12 },
+        { "kind": "sujos", "areaM2": 6 }
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Piso 1",
+      "functionalUnit": "Unidade A",
+      "rooms": [
+        { "beds": 4, "count": 4, "areaM2": 26, "wc": "privativo" },
+        { "beds": 3, "count": 6, "areaM2": 22, "wc": "privativo" },
+        { "beds": 2, "count": 6, "areaM2": 18, "wc": "privativo" },
+        { "beds": 1, "count": 4, "areaM2": 12, "wc": "privativo" }
+      ],
+      "spaces": [
+        { "kind": "sala_estar_copa", "areaM2": 20 },
+        { "kind": "sujos", "areaM2": 6 }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Piso 2",
+      "functionalUnit": "Unidade B",
+      "rooms": [
+        { "beds": 4, "count": 4, "areaM2": 26, "wc": "privativo" },
+        { "beds": 3, "count": 6, "areaM2": 22, "wc": "privativo" },
+        { "beds": 2, "count": 6, "areaM2": 18, "wc": "privativo" },
+        { "beds": 1, "count": 4, "areaM2": 12, "wc": "privativo" }
+      ],
+      "spaces": [
+        { "kind": "sala_estar_copa", "areaM2": 20 },
+        { "kind": "sujos", "areaM2": 6 }
+      ]
+    }
+  ]
+}
