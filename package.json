@@ -4,7 +4,12 @@
   "packageManager": "pnpm@10.28.0",
   "engines": { "node": ">=22" },
   "scripts": {
-    "test": "pnpm -r test",
-    "typecheck": "pnpm -r typecheck"
+    "dev": "turbo run dev --filter=@msl/web",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck"
+  },
+  "devDependencies": {
+    "turbo": "2.11.10"
   }
 }

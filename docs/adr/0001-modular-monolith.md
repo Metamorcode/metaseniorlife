@@ -1,6 +1,6 @@
 # ADR-001 · Monólito modular num monorepo
 
-- **Estado:** Proposto
+- **Estado:** Aceite (2026-10-31, PR #2)
 - **Data:** 2026-10-31
 - **Decisores:** Leo (PO), Claude (desenvolvimento)
 
