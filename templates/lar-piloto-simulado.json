@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "lar-piloto-simulado",
+  "name": "Lar piloto (simulado)",
+  "regime": "ERPI",
+  "floors": [
+    {
+      "level": 0,
+      "name": "Rés-do-chão",
+      "spaces": [
+        { "kind": "rececao", "areaM2": 20 },
+        { "kind": "direcao", "areaM2": 14 },
+        { "kind": "gabinete_tecnico", "areaM2": 12 },
+        { "kind": "refeitorio", "areaM2": 130 },
+        { "kind": "cozinha", "areaM2": 50 },
+        { "kind": "despensa", "areaM2": 15 },
+        { "kind": "lavandaria", "areaM2": 30 },
+        { "kind": "sala_convivio", "areaM2": 90 },
+        { "kind": "sala_atividades", "areaM2": 40 },
+        { "kind": "enfermaria", "areaM2": 20 },
+        { "kind": "fisioterapia", "areaM2": 35 },
+        { "kind": "cabeleireiro", "areaM2": 12 },
+        { "kind": "vestiario_pessoal", "areaM2": 25 },
+        { "kind": "wc_comum", "areaM2": 5, "count": 3 },
+        { "kind": "banho_geriatrico", "areaM2": 12 },
+        { "kind": "sujos", "areaM2": 6 },
+        { "kind": "arrecadacao", "areaM2": 12 },
+        { "kind": "bastidor_rede", "areaM2": 4 },
+        { "kind": "corredor" },
+        { "kind": "jardim" }
+      ]
+    },
+    {
+      "level": 1,
+      "name": "Piso 1",
+      "functionalUnit": "Unidade A",
+      "rooms": [
+        { "beds": 1, "count": 5, "areaM2": 12, "wc": "privativo" },
+        { "beds": 2, "count": 15, "areaM2": 18, "wc": "privativo" },
+        { "beds": 3, "count": 5, "areaM2": 22, "wc": "privativo" }
+      ],
+      "spaces": [
+        { "kind": "posto_enfermagem", "areaM2": 10 },
+        { "kind": "sala_estar_copa", "areaM2": 20 },
+        { "kind": "banho_geriatrico", "areaM2": 12 },
+        { "kind": "sujos", "areaM2": 6 },
+        { "kind": "wc_comum", "areaM2": 5 },
+        { "kind": "arrecadacao", "areaM2": 6 },
+        { "kind": "corredor" }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Piso 2",
+      "functionalUnit": "Unidade B",
+      "rooms": [
+        { "beds": 1, "count": 5, "areaM2": 12, "wc": "privativo" },
+        { "beds": 2, "count": 15, "areaM2": 18, "wc": "privativo" },
+        { "beds": 3, "count": 5, "areaM2": 22, "wc": "privativo" }
+      ],
+      "spaces": [
+        { "kind": "posto_enfermagem", "areaM2": 10 },
+        { "kind": "sala_estar_copa", "areaM2": 20 },
+        { "kind": "banho_geriatrico", "areaM2": 12 },
+        { "kind": "sujos", "areaM2": 6 },
+        { "kind": "wc_comum", "areaM2": 5 },
+        { "kind": "arrecadacao", "areaM2": 6 },
+        { "kind": "corredor" }
+      ]
+    }
+  ]
+}
