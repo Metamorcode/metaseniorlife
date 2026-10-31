@@ -1,6 +1,6 @@
 # ADR-003 · Ambientes, planos e custos
 
-- **Estado:** Proposto
+- **Estado:** Aceite (2026-10-31, PR #2)
 - **Data:** 2026-10-31
 - **Depende de:** ADR-002
 
